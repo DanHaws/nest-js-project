@@ -8,6 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Your next delivery!</title>
       <QueryClientWrapper>
         <body>{children}</body>
       </QueryClientWrapper>
